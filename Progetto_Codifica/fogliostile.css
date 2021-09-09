@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital@1&display=swap');
+body {
+    background-color: #ffffb0;
+    font-family: 'Urbanist', sans-serif;
+    margin: auto;
+    max-width: 75%;
+}
+
+.header > * {
+    margin: auto;
+    margin-top: 75px;
+    max-width: fit-content;
+    padding: 35px;
+    background-color: white;
+    box-shadow: 3px 3px 6px #8841a0;
+    border: 3px solid #8841a0;
+    border-radius: 8px;
+}
+
+.mainTitle {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 35px 70px;
+}
+.descrizione {
+    text-align: center;
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 18px;
+    line-height: 20px;
+}
+#selezione{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.elenco {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    background-color: #c57cdd;
+    padding: 10px 0;
+    max-width: 95%;
+    margin: auto;
+}
+
+.elenco a {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 6px;
+    max-width: fit-content;
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif;
+    color: black;
+    padding: 15px 32px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.elenco a:hover {
+    background-color: #FFFFB0;
+}
+
+/*menu cartoline*/
+
+
+
+#c14 {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: -1%;
+}
+#c82 {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: -1%;
+}
+/*info cartoline*/
+.infoCartolina {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    margin: 20px;
+}
+.boxInfo {
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+    border: 1px solid #8841a0;
+    background-color:white;
+    border: 3px solid #8841a0;
+    border-radius: 8px;
+    
+
+}
+.titolocart {
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    border: 2px solid #8841a0;
+    box-shadow: 3px 3px 6px #8841a0;
+    border-radius: 5px;
+    padding: 16px 0;
+}
+.sizeFoto {
+    width: 100%;
+}
+    
+.sizeFoto:hover {
+    transform: scale(1.05);
+}
+    
+.infoCartolina {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+#infoFronte p {
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#infoRetro p {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.divTesto {
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    font-size: 35px; 
+    word-spacing: 5px;
+}
+
+/*footer*/
+.footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    width: 100%;
+    margin-top: 8%;
+
+}
+.infoFooter {
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    border-top: 3px solid #8841a0;
+    
+}
+.boxInfo:first-child {
+    margin-right: 16px;
+    margin-bottom: 16px;
+    }
+    
+    .boxInfo:nth-child(2) {
+    margin-left: 16px;
+    margin-bottom: 16px;
+    }
+    
+    .boxInfo:nth-child(3) {
+    margin-right: 16px;
+    margin-top: 16px;
+    }
+    
+    .boxInfo:last-child {
+    margin-left: 16px;
+    margin-top: 16px;
+    }
+    .contenitori .boxInfo:nth-child(odd), .sizeFoto, .elenco a, .titolocart  { transition: all .2s ease-in-out; } 
+    .contenitori .boxInfo:nth-child(odd):hover, .sizeFoto:hover, .elenco a:hover, .titolocart:hover { transform: scale(1.03); }
+/* TEST */

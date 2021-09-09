@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+<?xml-stylesheet type="text/xsl" href="indexnostro.xsl"?>
+
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- HEADER DEL CORPUS -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Cartoline ad Oliva</title>
+                
+                <respStmt>
+                    <resp>Trascrizione digitale a cura di: </resp>
+                    <name ref="#NC">Niccolò Calabrese </name> e
+                    <name ref="#DS">Denise Saccotelli </name>
+                </respStmt>
+
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune" xml:id="SP">Comune di La Spezia</name>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt> 
+                <edition>Studenti del corso di Informatica Umanistica Triennale, Università di Pisa 
+                    <date when="2021-09">Settembre 2021</date>
+                </edition>
+                <respStmt>
+                    <resp>encoding by:</resp>
+                        <name ref="#NC">Niccolò Calabrese </name>
+                        <name ref="#DS">Denise Saccotelli </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Compilato da: </resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <name ref="#GP">Paolicchi G.</name>
+                    <name ref="#ES">Salvatori E.</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#ER">Ratti E.</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability status="restricted"><p>Accessibile per ricerche accademiche</p></availability>
+                <date when="2021">2021</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="IT">Italy</country>
+                        <settlement type="city">La Spezia</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                            cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+     <!--CODIFICA PRIMA CARTOLINA - 057-->
+    <TEI xml:id="cart57">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Edizione digitale di "Donna"</title>
+
+                    <respStmt>
+                        <resp>Trascrizione digitale a cura di:</resp>
+                            <name ref="#NC">Niccolò Calabrese </name>
+                            <name ref="#DS">Denise Saccotelli </name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza:</resp>
+                        <name type="comune" ref="#SP">Comune di La Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti del corso di Informatica Umanistica Triennale, Università di Pisa 
+                        <date when="2021-07">Luglio 2021</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by:</resp>
+                        <name ref="#NC">Niccolò Calabrese </name>
+                        <name ref="#DS">Denise Saccotelli </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilato da:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Paolicchi G.</name>
+                        <name ref="#ES">Salvatori E.</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#ER">Ratti E.</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="restricted"><p>Accessibile per ricerche accademiche</p></availability>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>Ritratto di donna</title>
+                        <publisher>
+                           <orgName type="editore"> F.P.M </orgName>
+                        </publisher>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country key="IT">Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                            <idno>7694-057_001/002</idno>
+                        </msIdentifier>
+
+                        <msContents>
+                            <summary>Cartolina artistica facente parte di un album collezionato da Oliva Turtura durante gli anni della Grande Guerra.</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote scribe="catalogatore" medium="pencil" scope="minor">
+                                    <p>In alto a sinistra della cartolina è riportato il numero <num value="57">57</num>
+                                        usato per la catalogazione</p>
+                                </handNote>
+                                <handNote scribe="Flavio" medium="black" scope="major">
+                                    <p>La prima mano di questa cartolina è di Flavio</p>
+                                </handNote>
+                                <handNote scribe="tipografo" medium="black-ink" scope="minor">
+                                    <p>All'interno della cartolina è riportata una stampa</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <listPerson>
+                        <person>
+                            <persName ref="#OT">
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                        <person>
+                            <persName ref="#F">
+                                <forename>Flavio</forename>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                    </listPerson>
+                    <listPlace>
+                        <place>
+                            <placeName>Ravenna</placeName>
+                            <settlement type="località">Città</settlement>
+                            <district type="provincia">RV</district> 
+                            <country key="IT">IT</country>
+                        </place>
+                    </listPlace>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="received">
+                        <persName>Oliva Turtura</persName>
+                    </correspAction>
+                    <correspAction type="sent">
+                        <persName>Flavio</persName>
+                        <date when="1916-07-07">7 luglio 1916</date>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it-IT" usage="100">Italiano</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text type="cartolina"  xml:lang="it">
+            <body>
+                <div type="fronte">
+                    <figure xml:id="picture57">
+                        <graphic url="img/cartolina1F.png"/>
+                        <head>Ritratto di donna</head>
+                        <figDesc>Nell'immagine è rappresentato un ritratto di tre quarti di una giovane donna.</figDesc>
+                    </figure>
+                </div>
+            <!--Trascrizone-->
+                <div type="retro">
+                    <div type="codice">
+                        <p>
+                            <lb xml:id="num57R" facs="#riganum57R"/>
+                            <num type="cardinal">57</num>
+                        </p>
+                    </div>
+                    <div type="francobollo_timbro" facs="#rigastamp57R">
+                        <p>
+                            <stamp type="postage_stamp">
+                                <note>Francobollo del Regno d'Italia da 5 centesimi delle Poste
+                                    Italiane nel 1906. Rappresenta il volto di profilo di Vittorio Emanuele III.</note>
+                            </stamp>
+                            <stamp type="postmark">
+                                <mentioned> 
+                                    <unclear reason="illegible">[...]</unclear>
+                                </mentioned>
+                            </stamp>
+                        </p>
+                    </div>
+                <!--devo inserire IN QUESTO PUNTO un opener o rendere il closer stesso un opener, perchè non penso possa esistere un closer senza un opener -->
+                    <div type="Message">
+                        <p>
+                            <address>
+                                <lb xml:id="addr57_1" facs="#rigaddr57_1"/>
+                                <addrLine>
+                                    Alla <choice><abbr>Gent.</abbr><expan>Gentile</expan></choice> <choice><abbr>Sign.na</abbr><expan>Signorina</expan></choice> 
+                                </addrLine>
+                                <lb xml:id="addr57_2" facs="#rigaddr57_2" />
+                                <addrLine>
+                                    <persName ref="#OT">Oliva Turtura</persName>
+                                </addrLine>
+                                <lb xml:id="addr57_3" facs="#rigaddr57_3" />
+                                <addrLine>
+                                    Via G.Rossi 58
+                                </addrLine>
+                                <lb xml:id="addr57_4" facs="#rigaddr14_4" />
+                                <addrLine>
+                                    <placeName><hi rend="underline">Ravenna</hi></placeName>
+                                </addrLine>
+                            </address>
+                        </p>
+                        <closer>
+                            <lb xml:id="closer57_1" facs="#rigacloser57_1"/><salute>Affettuosi saluti da</salute>
+                            <lb xml:id="closer57_2" facs="#rigacloser57_2"/><signed><persName rend="underline" ref="#F">Flavio</persName></signed>
+                            <lb xml:id="closer57_3" facs="#rigacloser57_3"/><dateline><address><addrLine>Via C.Tenca 19</addrLine></address> <date when="1916-07-07"> 07/07/1916</date></dateline>
+                        </closer>
+                    </div>
+                    <div type="codStampa">
+                        <p>
+                            <lb xml:id="numFinale57_1" facs="#riganumFinale57_1"/><num>329-4</num>
+                        </p>
+                    </div>
+                </div>
+            </body>
+        </text>
+        <facsimile>
+            
+                <surface xml:id="fronte057">
+                    <graphic url='img/cartolina1F.png' width='1056px' height='1638px' />
+                    <!-- ricordati di fare una graphic zone anche per il fronte e anche per le altre cartoline-->
+                </surface> 
+                <surface xml:id="retro057">
+                    <graphic url='img/cartolina1R.png' width='1645px' height='1061px'/>
+                    <zone xml:id="riga1_57R" ulx="471" uly="68" lrx="635" lry="809"/>
+                    <zone xml:id="riga2_57R" ulx="294" uly="458" lrx="484" lry="740"/>
+                    <zone xml:id="address_57R" ulx="23" uly="49" lrx="135" lry="284"/>
+                    <zone xml:id="date_57R" ulx="10" uly="857" lrx="104" lry="1059"/>
+                    <zone xml:id="sign_57R" ulx="277" uly="33" lrx="374" lry="82" />
+                    <zone xml:id="Numserie_57R" ulx="723" uly="1018" lrx="819" lry="1041"/>
+                </surface>
+        </facsimile>
+    </TEI>
+
+    <!--CODIFICA SECONDA CARTOLINA - 040-->
+    <TEI xml:id="cart40">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main"> Edizione digitale di "Donna in posa"</title>
+
+                    <respStmt>
+                        <resp>Trascrizione digitale a cura di:</resp>
+                            <name ref="#NC">Niccolò Calabrese </name>
+                            <name ref="#DS">Denise Saccotelli </name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza:</resp>
+                        <name type="comune" ref="#SP">Comune di La Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti del corso di Informatica Umanistica Triennale, Università di Pisa 
+                        <date when="2021-07">Luglio 2021</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by:</resp>
+                        <name ref="#NC">Niccolò Calabrese </name>
+                        <name ref="#DS">Denise Saccotelli </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilato da:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Paolicchi G.</name>
+                        <name ref="#ES">Salvatori E.</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#ER">Ratti E.</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="restricted"><p>Accessibile per ricerche accademiche</p></availability>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>Donna con cappello con piuma</title>
+                        <publisher>
+                          <orgName type="editore"> F.P.M </orgName>
+                        </publisher>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country key="IT">Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                            <idno>7694-040_001/002</idno>
+                        </msIdentifier>
+
+                        <msContents>
+                            <summary>Cartolina artistica facente parte di un album collezionato da Oliva Turtura durante gli anni della Grande Guerra. </summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc hands="3">
+                                <handNote scribe="catalogatore" medium="pencil" scope="minor">
+                                    <p>In alto a sinistra della cartolina è riportato il numero <num value="40">40</num>
+                                        usato per la catalogazione</p>
+                                </handNote>
+                                <handNote scribe="Mario" medium="black" scope="major">
+                                    <p>La prima mano di questa cartolina è di Mario</p>
+                                </handNote>
+                                <handNote scribe="tipografo" medium="brown-ink" scope="minor">
+                                    <p>All'interno della cartolina è riportata una stampa </p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <listPerson>
+                        <person>
+                            <persName ref="#OT">
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+
+                        <person>
+                            <persName ref="#M">
+                               <forename>Mario</forename>
+                            </persName>
+                            <sex>M</sex> 
+                        </person>
+
+                        <person>
+                           <persName ref="#G">
+                             <forename>Ginevra</forename>
+                           </persName>
+                           <sex>F</sex>
+                        </person>
+
+                        <person>  
+                           <persName ref="#N">
+                              <forename>Nino</forename>
+                           </persName>
+                           <sex>M</sex> 
+                       </person>
+                    </listPerson>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>Mario</persName>
+                        <persName>Ginevra</persName>
+                        <persName>Nino</persName>
+                        <date when="1915-03-04">3 aprile 1915</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>Oliva Turtura</persName>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it" usage="100">Italiano</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text type="cartolina"  xml:lang="it">
+            <body>
+                <div type="fronte">
+                    <figure xml:id="picture40">
+                        <graphic url="img/cartolina2F.png"/>
+                        <head>Donna con cappello con piuma</head>
+                        <figDesc>Nell'immagine è rappresentata una donna di profilo che indossa un cappello ornato di piume</figDesc>
+                    </figure>
+                </div>
+                <!--Trascrizone-->
+                <div type="retro">
+                    <div type="codice"> 
+                        <p>
+                            <lb xml:id="num40R" facs="#riganum40R" />
+                            <num type="cardinal">40</num>
+                        </p>
+                    </div>
+                    <div facs="#rigastamp40R" type="francobollo_timbro">
+                        <p>
+                            <stamp type="postage_stamp">
+                                <note>Francobollo del Regno d'Italia da 5 centesimi delle Poste
+                                    Italiane nel 1906. Rappresenta il volto di profilo di Vittorio Emanuele III.</note>
+                            </stamp>
+                            <stamp type="postmark">
+                                <mentioned><unclear reason="illegible">3 Milano [...]</unclear></mentioned>
+                            </stamp>
+                        </p>
+                    </div>
+                    <div type="Message">
+                       <!-- <lb /><opener facs="#rigadata23">
+                            <dateline>
+                                li <date when="1916-12-7">7/12-1916</date>
+                            </dateline>
+                        </opener> -->
+                        <p>
+                            <address>
+                                <lb xml:id="addr40_1" facs="#rigaddr40_1"/>
+                                <addrLine>Alla <choice><abbr>Gent.</abbr><expan>Gentile</expan></choice></addrLine>
+                                <lb xml:id="addr40_2" facs="#rigaddr40_2" />
+                                <addrLine>
+                                    Signorina <persName ref="#OT">Oliva Turtura</persName>
+                                </addrLine>
+                                <lb xml:id="addr40_3" facs="#rigaddr40_3" />
+                                <addrLine>Via Ger. Rossi 58</addrLine>
+                                <lb xml:id="addr40_4" facs="#rigaddr40_4" />
+                                <addrLine>
+                                    <placeName><hi rend="underline">Ravenna</hi></placeName>
+                                </addrLine>
+                            </address>
+                        </p>
+                        <closer>
+                          <lb xml:id="closer40_1" facs="#rigacloser40_1" /><salute>Auguri sinceri a te </salute>
+                          <lb xml:id="closer40_2" facs="#rigacloser40_2" /><salute>e famiglia</salute>
+                          <lb xml:id="closer40_3" facs="#rigacloser40_3" /><signed><persName ref="#M">Mario</persName><persName ref="#G">Ginevra</persName><persName ref="#N">Nino</persName></signed>
+                          <lb xml:id="closer40_4" facs="#rigacloser40_4" /><dateline><placeName> Milano</placeName><date when="1915-04-03"> 03/04/1915</date></dateline>
+                        </closer>
+                    </div>
+                    <div type="codStampa">
+                        <p>
+                            <lb xml:id="numFinale40R" facs="#riganumFinale40R"/><num>327-4</num>
+                        </p>
+                    </div>
+                </div>
+            </body>
+        </text>
+        <facsimile>
+            <surfaceGrp>
+                <surface xml:id="fronte040">
+                   <graphic url='img/cartolina2F.png' width='1066px' height='1650px' />
+                </surface>
+                <surface xml:id="retro040">
+                   <graphic url='img/cartolina2R.png' width='1650px' height='1074px' />
+                   <zone xml:id="riga1_40R" ulx="487" uly="243" lrx="611" lry="920"/>
+                   <zone xml:id="riga2_40R" ulx="422" uly="199" lrx="488" lry="504"/>
+                   <zone xml:id="riga3_40R" ulx="358" uly="484" lrx="448" lry="1039"/>
+                   <zone xml:id="luogoedata40" ulx="23" uly="45" lrx="138" lry="440" />
+                   <zone xml:id="sign_40R" ulx="179" uly="31" lrx="246" lry="83" />
+                   <zone xml:id="Numserie_40R" ulx="740" uly="947" lrx="824" lry="959" />
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+    </TEI>
+
+    <!--CODIFICA TERZA CARTOLINA - 030-->
+    <TEI xml:id="cart30">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title type="main">Donna seduta</title>
+
+                    <respStmt>
+                        <resp>Trascrizione digitale a cura di:</resp>
+                        <name ref="#NC">Niccolò Calabrese </name>
+                        <name ref="#DS">Denise Saccotelli </name>
+                    </respStmt>
+
+                    <respStmt>
+                        <resp>Ente di Appartenenza:</resp>
+                        <name type="comune" ref="#SP">Comune di La Spezia</name>
+                    </respStmt>
+                </titleStmt>
+
+                <editionStmt>
+                    <edition>Studenti del corso di Informatica Umanistica Triennale, Università di Pisa 
+                        <date when="2021-07">Luglio 2021</date>
+                    </edition>
+                    <respStmt>
+                        <resp>encoding by:</resp>
+                        <name ref="#NC">Niccolò Calabrese </name>
+                        <name ref="#DS">Denise Saccotelli </name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Compilato da:</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico:</resp>
+                        <name ref="#GP">Paolicchi G.</name>
+                        <name ref="#ES">Salvatori E.</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#ER">Ratti E.</name>
+                    </respStmt>
+                </editionStmt>
+
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability status="restricted"><p>Accessibile per ricerche accademiche</p></availability>
+                    <date when="2021">2021</date>
+                </publicationStmt>
+
+                <sourceDesc>
+                    <bibl>
+                        <title>Donna seduta</title>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country key="IT">Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                                cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                            <idno>7694-030_001/002</idno>
+                        </msIdentifier>
+
+                        <msContents>
+                            <summary>Cartolina artistica facente parte di un album collezionato da Oliva Turtura durante gli anni della Grande Guerra.</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc hands="3">
+                                <handNote scribe="catalogatore" medium="pencil" scope="minor">
+                                    <p>In alto a sinistra della cartolina è riportato il numero <num value="30">30</num>
+                                        usato per la catalogazione</p>
+                                </handNote>
+                                <handNote scribe="Mario" medium="black" scope="major">
+                                    <p>La prima mano di questa cartolina è di Mario</p>
+                                </handNote>
+                                <handNote scribe="tipografo" medium="red-ink" scope="minor">
+                                    <p>All'interno della cartolina è riportata una stampa</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+
+                    <listPerson>
+                        <person>
+                            <persName ref="#OT"> 
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                        <person>
+                            <persName ref="#M">
+                                <forename>Mario</forename>
+                            </persName>
+                            <sex>M</sex>
+                        </person>
+                     </listPerson>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>Mario</persName>
+                        <date when="1915-06-09">9 giugno 1915</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>Oliva Turtura</persName>
+                    </correspAction>
+                </correspDesc>
+                <langUsage>
+                    <language ident="it-IT" usage="74">Italiano </language>   
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <text type="cartolina"  xml:lang="it">
+            <body>
+                <div type="fronte">
+                <figure xml:id="picture30">   
+                    <graphic url="img/cartolina3F.png" />
+                    <head>Donna seduta</head>
+                    <figDesc>Nell'immagine è rappresentata una donna in abiti eleganti.</figDesc>
+                </figure>
+                </div>
+                 <!--Trascrizone-->
+                <div type="retro">
+                    <div type="codice">
+                        <p>
+                            <lb xml:id="num30R" facs="#riganum30R"/>
+                            <num type="cardinal">30</num>
+                        </p>
+                    </div>
+                    <!-- qui controlla anche gli altri div type dei francobolli delle altre 2 cartoline, perchè hai messo prima facs nelle altre... vedi te come sistemare e uniformare -->
+                    <div type="francobollo_timbro" facs="#rigastamp30R">
+                        <p>
+                            <stamp type="postage_stamp">
+                                <note>Francobollo del Regno d'Italia da 5 centesimi delle Poste
+                                    Italiane nel 1906. Rappresenta il volto di profilo di Vittorio Emanuele III.</note>
+                            </stamp>
+                            <stamp type="postmark">
+                                <mentioned> 
+                                    <unclear reason="illegible">[...]</unclear>
+                                </mentioned>
+                            </stamp>
+                        </p>
+                    </div>
+                    <div type="Message">
+                    <!--controlla bene se va bene questa parte-->
+                        <p>
+                            <address>
+                                <lb xml:id="addr30_1" facs="#rigaddr30_1"/>
+                                <addrLine>Alla <choice><expan>Gentilissima</expan></choice></addrLine>
+                                <lb xml:id="addr30_2" facs="#rigaddr30_2" />
+                                <addrLine>
+                                    Signorina <persName ref="#OT">Oliva Turtura</persName>
+                                </addrLine>
+                                <lb xml:id="addr30_3" facs="#rigaddr30_3" />
+                                <addrLine>Via Gerolamo Rossi 58</addrLine>
+                                <lb xml:id="addr30_4" facs="#rigaddr30_4" />
+                                <addrLine>
+                                    <placeName><hi rend="underline">Ravenna</hi></placeName>
+                                </addrLine>
+                            </address>
+                        </p>
+                        <closer>
+                            <lb xml:id="closer30_1" facs="#rigacloser30_1"/><salute>Saluti cordialissimi</salute>
+                            <lb xml:id="closer30_2" facs="#rigacloser30_2" /><salute>a tutti</salute>
+                            <lb xml:id="closer30_3" facs="#rigacloser30_3"/><signed><persName ref="#M">Mario</persName></signed>
+                            <lb xml:id="closer30_4" facs="#rigacloser30_4"/><dateline><placeName> Milano</placeName><date when="1915-06-09"> 09/06/1915</date></dateline>
+                        </closer>
+                    </div>
+                    <div type="codStampa">
+                        <p>
+                            <lb xml:id="numFinale30_1" facs="#riganumFinale30_1"/><num>2840-5</num>
+                        </p>
+                    </div>
+                </div>
+            </body>
+        </text>
+        <facsimile>
+        <!-- fronte -->
+        <surface xml:id="fronte030">
+            <graphic url='img/cartolina3F.png' width='1037px' height='1676px'/>
+        </surface>
+
+        <!--retro-->
+        <surface xml:id="retro030">
+            <graphic url='img/cartolina3R.png' width='1674px' height='1040px'/>
+            <zone xml:id="riga1_30R" ulx="582" uly="61" lrx="764" lry="970"/>
+            <zone xml:id="riga2_30R" ulx="495" uly="80" lrx="567" lry="336"/>
+            <zone xml:id="riga3_30R" ulx="382" uly="390" lrx="514" lry="655"/>
+            <zone xml:id="luogoedata30" ulx="9" uly="3" lrx="145" lry="629" />
+            <zone xml:id="sign_30R" ulx="210" uly="14" lrx="286" lry="59"/>
+            <zone xml:id="Numserie_30R" ulx="714" uly="982" lrx="815" lry="993"/>
+        </surface>
+    </facsimile>
+</TEI>
+</teiCorpus>
+
+<!--controlla questa parte in fondo, le chiusure tei e teicorpus. Poi 
+nelle altre cartoline ricontrolla la parte facsimile perchè c'è surfacegrp non chiuso, qui non ce l'ho messo proprio-->
